@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 16px;
+    font-family: "roboto", sans-serif;
+    /*background-color: rgb(50, 50, 160);*/
+}
+.menu nav a {   
+    text-decoration: none;
+    padding: 0 30px;
+    color: cadetblue;
+} 
+.menu {
+    position: fixed;
+    float: right;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    padding: 31px 87px;
+    background: #FFF;
+    box-shadow: 0 4px 30px rgb(0, 0, 0, .1);
+    z-index: 2;
+}
+.menu nav {
+    float: right; 
+}
+.menu h3 {
+    float: left;
+    color: cadetblue;
+}
+
+.menu nav a:active {
+    color: rgb(68, 209, 209);
+}
+.menu nav a:hover {
+    text-decoration: underline;
+    color: rgb(69, 151, 151);
+}  
+.menu nav a {   
+    text-decoration: none;
+    padding: 0 30px;
+    color: cadetblue;
+} 
+section {
+    z-index: 1;
+}
+.main {
+    background-color: #0336FF;   
+}
+.mainproject {
+    background-color:rgb(121, 150, 161);
+    height: 500px;
+}
+.maincontact {
+    background-color: #FFDE03;
+    height: 500px;
+    text-align: center;
+}
+.centre {
+   /* margin-top: 150px;*/
+    padding-top: 150px; 
+    
+}
+.centreproject {
+    padding-top: 50px;
+}
+.contenu {
+    /*position: relative;
+    max-width: 100%;
+    margin-right: 0;*/
+    height: 500px;
+}
+.contenu h1 {
+    font-size: 30px;
+    color: brown;
+}
+.contenu h2 {
+    color: cornsilk;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.projectcontenu {
+    margin-bottom: 100px;
+}
+.projectcontenu h1 {
+    color: brown;
+}
+.contenu img{
+    width: 200px;
+    height: 150px;
+}
+.projectcontenu img{
+    width: 300px;
+    height: 150px;
+}
+.mainproject {
+    color: brown;
+}
+.formulaire {
+    display: inline;
+}
+form {
+    float: left;
+    margin-left: 300px;
+}
+video {
+    float: right;
+    margin-right: 300px;
+}
+.maincontact img{
+    width: 200px;
+    height: 100px;
+}
+.maincontact h1 {
+    padding-top: 50px;
+    color: brown;
+}
+.maincontact h2 {
+    padding-top: 10px;
+}
+img {
+    transition: ;
+}

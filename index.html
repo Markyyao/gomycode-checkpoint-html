@@ -4,30 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
 </head>
 <body>
-    <div id="main">
-        <header>
-            <h3>Portfolio</h3>
-            <nav>
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="project.html">Project</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <div>
-            <center>
+    <header  class="menu">
+        <h3>Portfolio</h3>
+        <nav>    
+            <a href="index.html">About</a>
+            <a href="#project">Project</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="main">        
+        <center class="centre">
+            <div class="contenu">
                 <h1>Bienvenue sur le site de MARTIAL YAO</h1>
                 <h2>Developpeur de logiciel</h2>
-                <img src="img/html.png" alt="image html" />
-                <img src="img/css.png" alt="image css" />
-                <img src="img/javascript.png" alt="image javascript" />
-                <img src="img/nodejs.jpg" alt="image node js" />
-            </center>
+                <img src="ress/img/html.png" alt="image html" class="image1"/>
+                <img src="ress/img/css.png" alt="image css" />
+                <img src="ress/img/javascript.png" alt="image javascript" />
+                <img src="ress/img/nodejs.jpg" alt="image node js" />
         </div>
-    </div>
+        </center>
+    </section>
+    <section class="mainproject">
+        <center class="centreproject">
+            <div class="projectcontenu">
+                <p>
+                   <a name="project"><h1>Mes Projets Realisé</h1></a>
+                   <img src="ress/img/projet1.jpg" alt="image projet 1" />
+                   <img src="ress/img/projet2.jpg" alt="image projet 2" />
+                   <img src="ress/img/projet3.jpg" alt="image projet3" />
+                </p>        
+                <p>
+                   <img src="ress/img/projet4.jpg" alt="image projet 4" />
+                   <img src="ress/img/projet5.jpg" alt="image projet 5" />
+                   <img src="ress/img/projet6.jpg" alt="image projet 6" />
+                </p>
+        </div>
+        </center>
+    </section>
+    <section class="maincontact">
+        <div>
+                <p>
+                   <h1>Contacter Moi sur mes reseaux</h1>
+                   <br />
+                   <img src="ress/img/facebook.png" alt="image facebook" />        
+                   <img src="ress/img/linkedin.jpg" alt="image linkedin" />
+                   <img src="ress/img/twitter.png" alt="image twitter" />  
+                   <img src="ress/img/instagram.jpg" alt="image instagram" />             
+                </p>        
+                <p>
+                    <h2>Envoyez moi un email  <a href="mailto:martialetude@gmail.com" title="Envoie de mail">ici</a></h2>  
+                </p>                            
+        </div>
+        <p class="formulaire">
+            <form action="post">
+                <legend for="email">Votre Email<sup>*</sup></legend>
+                <input type="email" id="email" name="email" placeholder="votre@email" required />
+                <legend for="prenom">Votre Prenom<sup>*</sup></legend>
+                <input type="text" id="prenom" name="prenom" required />
+                <legend for="message">Votre message<sup>*</sup></legend>
+                <a name="contact"><textarea name="message" id="message"  required></textarea></a>
+                <br />
+                <button type="submit">Envoyer</button>
+            </form>
+            <br />
+            <video src="ress/video/video.mp4" width="200" height="150" controls poster="ress/img/projet1.jpg"></video>
+        </p>        
+    </section>
 </body>
 </html>
